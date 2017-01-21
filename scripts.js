@@ -3,9 +3,6 @@
 
 */
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    console.log("DOM fully loaded and parsed");
-});
 
 var quotes = [
 'We must be willing to let go of the life we’ve planned to have the life that is waiting for us.','–E.M. Forste',
@@ -48,3 +45,10 @@ function newQuote() {
     document.getElementById('tweet-quote').setAttribute("href", href);
   }
 
+
+
+ $('#newQuote').click(function(){
+ 
+ alert("#newQuote")
+ 
+ });
