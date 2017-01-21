@@ -40,7 +40,7 @@ function newQuote() {
   document.getElementById('quoteDisplay').innerHTML = allQuotes[randomNumber] + '<br /><br />' + allAuthors[randomNumber];
 
   //Tweet quote
-  var href = "https://twitter.com/share?text=" + '"' + allQuotes[randomNumber] + '"' + '  ' + allAuthors[randomNumber] + 'via'; 
+  var href = "https://twitter.com/share?text=" + '"' + allQuotes[randomNumber] + '"' + '  ' + allAuthors[randomNumber] + ' via'; 
   document.getElementById('tweet-quote').setAttribute("href", href);
 }
 
