@@ -72,13 +72,13 @@ p {
 
 
 .fa-twitter {
-  color: #7D9C9F;
+  color: #ca6b92;
   text-align: center; 
   margin: 10px auto;
 }
 
 .fa-twitter:hover {
-  color: #ca6b92;
+  color: #7D9C9F;
   text-align: center; 
   margin: 10px auto;
 }
@@ -101,11 +101,11 @@ p {
 
 #newQuote {
   color: #7D9C9F;
-  border-bottom: 3px solid #7D9C9F;
+  border-bottom: 3px solid #ca6b92;
 }
 
 #newQuote:hover {
-  border-bottom: 3px solid #ca6b92; 
+  border-bottom: 3px solid #7D9C9F; 
 }
 
 #newQuote:focus {
