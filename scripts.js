@@ -46,9 +46,3 @@ function newQuote() {
   }
 
 
-
- $('#newQuote').click(function(){
- 
- alert("#newQuote")
- 
- });
