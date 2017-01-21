@@ -16,24 +16,19 @@ div {
   z-index: 2;
 }
 
+
 h1 {
   font-family: 'Stalemate', cursive;
   font-weight: 400;
   font-size: 5em;
   text-align: center; 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #DFEFF0;
 }
-
 
 p {
   text-align: center;
   margin-left: 5%;
-}
-
-a {
-  color: #DFEFF0; 
-  text-decoration: none; 
 }
 
 .quote-box {
@@ -74,7 +69,6 @@ a {
   margin: auto;
   display: block;
 }
-
 
 
 .fa-twitter {
@@ -120,7 +114,7 @@ a {
 
 .main-content {
   min-height: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .footer {
@@ -129,24 +123,22 @@ a {
   color: #DFEFF0;
   font-family: Raleway, serif;
   text-decoration: none;
-  height: 10px;
+  height: 25px;
 }
 
-.footer a {
+a {
   color: #DFEFF0; 
   text-decoration: none; 
 }
 
-.footer a:hover {
+a:hover {
   color: #ca6b92; 
   border-bottom: 2px solid #ca6b92;
 }
 
-.footer a:visited {
+a:visited {
   color: #ca6b92; 
 }
-
-
 
 @media (max-width: 850px) { 
 
