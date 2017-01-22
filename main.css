@@ -137,7 +137,7 @@ a:hover {
 }
 
 a:visited {
-  color: #ca6b92; 
+  color: #DFEFF0; 
 }
 
 @media (max-width: 850px) { 
@@ -162,67 +162,3 @@ a:visited {
   }
 }
 
-
-// Iphone 6+ 
-@media only screen 
-    and (min-device-width : 414px) 
-    and (max-device-width : 736px)
-    and (device-width : 414px)
-    and (device-height : 736px)
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 3) 
-    and (-webkit-device-pixel-ratio : 3)
-{ 
-  .quote-box{
-    width: 100%
-  }
-  #quote-container{
-    margin: auto;
-    width: 250px;
-  }
-  #quoteDisplay { 
-    margin: auto;
-    width: 60%;
-  }
-  .buttons {
-    width: 250px; 
-    margin: 0 auto;
-  }
-  #newQuote {
-    font-size: .8em;
-  }
-}
-
-
-// Iphone 6
-@media only screen 
-    and (min-device-width : 375px) // or 213.4375em
-    and (max-device-width : 667px) // or 41.6875em
-    and (width : 375px) // or 23.4375em
-    and (height : 559px) // or 34.9375em
-    and (orientation : portrait) 
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 375/559)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{ 
-.quote-box{
-    width: 100%
-  }
-  #quote-container{
-    margin: auto;
-    width: 250px;
-  }
-  #quoteDisplay { 
-    margin: auto;
-    width: 60%;
-  }
-  .buttons {
-    width: 250px; 
-    margin: 0 auto;
-  }
-  #newQuote {
-    font-size: .8em;
-  }
-}

@@ -46,3 +46,18 @@ function newQuote() {
   }
 
 
+
+var tap = true;
+document.addEventListener('touchstart',function(e) {
+  tap = true;
+});
+document.addEventListener('touchmove',function(e) {
+ tap = false;
+});
+document.addEventListener('touchend',function(e) {
+  if(tap) {
+     var touch = e.changedTouches[0];
+     var pageX = touch.pageX;
+     var pageY = touch.pageY;
+  }
+});
