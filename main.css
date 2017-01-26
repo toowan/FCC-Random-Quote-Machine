@@ -147,22 +147,32 @@ a:visited {
 @media (max-width: 850px) { 
 
   .quote-box{
-    width: 100%
+    margin: 0 auto;
+    width: 500px;
+ 
   }
   #quote-container{
     margin: auto;
+    text-align: center;
     width: 500px;
+    position: relative;
   }
   #quoteDisplay { 
     margin: auto;
     width: 400px;
+    text-align: center;
+    font-size: 1.7em;
   }
+
   .buttons {
-    width: 430px; 
+    width: 395px; 
     margin: 0 auto;
+
   }
+
   #newQuote {
-    font-size: .em;
+    font-size: .9em;
+    margin-right: -20px;
   }
 }
 
@@ -170,24 +180,31 @@ a:visited {
 @media (max-width: 550px) { 
 
   .quote-box{
-    width: 100%
-  }
-  #quote-container{
-    margin: auto;
+    margin: 0 auto;
     width: 300px;
   }
+
+  #quote-container{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+
   #quoteDisplay { 
     margin: auto;
-    width: 250px;
+    width: 200px;
     font-size: 1.5em;
+    text-align: center;
   }
+
   .buttons {
-    width: 250px; 
+    width: 200px; 
     margin: 0 auto;
   }
   #newQuote {
     font-size: .8em;
-    margin-right: -30px;
+    margin-right: -15px;
   }
 
 
