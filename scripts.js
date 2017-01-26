@@ -38,7 +38,7 @@ function newQuote() {
     // Generate random number and round it down to whole integer
     var randomNumber = Math.floor(Math.random() * (allQuotes.length)); 
     // Pass the retrieved quote as the value to be added to HTML quoteDisplay element
-    document.getElementById('quoteDisplay').innerHTML = allQuotes[randomNumber] + '<br /><br />' + allAuthors[randomNumber];
+    document.getElementById('quote').innerHTML = allQuotes[randomNumber] + '<br /><br />' + allAuthors[randomNumber];
 
     //Tweet quote
     var href = "https://twitter.com/share?text=" + '"' + allQuotes[randomNumber] + '"' + '  ' + allAuthors[randomNumber] + ' via '; 
