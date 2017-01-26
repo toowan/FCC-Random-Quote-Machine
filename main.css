@@ -34,9 +34,17 @@ p {
   margin-left: 15px;
 }
 
+
 .quote-box {
   margin: 0 auto;
-  width: 800px;
+  width: 100%;
+  position: relative;
+}
+
+#quote-container{
+  margin: auto;
+  text-align: center;
+  width: 100%;
   position: relative;
 }
 
@@ -149,14 +157,15 @@ a:visited {
   .quote-box{
     margin: 0 auto;
     width: 500px;
- 
   }
+
   #quote-container{
     margin: auto;
     text-align: center;
     width: 500px;
     position: relative;
   }
+
   #quoteDisplay { 
     margin: auto;
     width: 400px;
